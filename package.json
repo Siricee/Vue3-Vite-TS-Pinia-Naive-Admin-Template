@@ -4,7 +4,9 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "dev": "vite --mode dev --port 9980"
+    "dev": "vite --mode dev --port 9980",
+    "build": "vite build --mode production",
+    "preview": "vite preview --port 9981"
   },
   "keywords": [],
   "author": "",
@@ -13,7 +15,6 @@
   "dependencies": {
     "@vueuse/core": "^13.6.0",
     "colord": "^2.9.3",
-    "date-fns": "^4.1.0",
     "pinia": "^3.0.3",
     "pinia-plugin-persistedstate": "^4.4.1",
     "pro-naive-ui": "^2.4.3",
